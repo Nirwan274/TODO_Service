@@ -12,7 +12,8 @@ import { TodoDetailsComponent } from './todo/todo-details/todo-details.component
 import { MakingService } from './making.service';
 import { WorkService } from './work.service';
 import { WorkserviceService } from './workservice.service';
-
+import {HttpClientModule } from '@angular/common/http';
+import { SpaceXComponent } from './space-x/space-x.component'
 
 @NgModule({
   declarations: [
@@ -22,11 +23,13 @@ import { WorkserviceService } from './workservice.service';
     TodoListComponent,
     TodoInputComponent,
     TodoFooterComponent,
-    TodoDetailsComponent
+    TodoDetailsComponent,
+    SpaceXComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [MakingService, WorkService,WorkserviceService],
   bootstrap: [AppComponent]

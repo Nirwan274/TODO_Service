@@ -13,6 +13,6 @@ export class MakingService {
     {"Name":"Add angular services","Commands":"many","Deadline":"10 hours"}
   ]
   gettask() { return this.task}
-  
+
   constructor() { }
 }

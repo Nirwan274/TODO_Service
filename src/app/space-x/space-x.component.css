@@ -1,4 +1,4 @@
-p
+h1
 {
   padding-top: 30px;
   padding-left: 48%;
@@ -10,18 +10,19 @@ table{
   margin-left: auto;
   margin-right: auto;
 }
-#tasks {
+#mission {
   font-family: Comic Sans MS;
   position: center;
   border-collapse: collapse;
 }
 
-#tasks td, #tasks th {
+#mission td, #mission th {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: center;
 }
 
-#tasks tr:nth-child(even){background-color: #f2f2f2;}
+#mission tr:nth-child(even){background-color: #f2f2f2;}
 
-#tasks tr:hover {background-color: #ddd;}
+#mission tr:hover {background-color: #ddd;}
+
